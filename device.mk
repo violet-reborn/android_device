@@ -132,10 +132,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
-# Common init scripts
-PRODUCT_PACKAGES += \
-    init.qcom.rc
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
