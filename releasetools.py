@@ -18,15 +18,15 @@ import hashlib
 import common
 import re
 
-def FullOTA_Assertions(info):
-  AddModemAssertion(info, info.input_zip)
-  AddVendorAssertion(info, info.input_zip)
-  return
+#def FullOTA_Assertions(info):
+#  AddModemAssertion(info, info.input_zip)
+#  AddVendorAssertion(info, info.input_zip)
+#  return
 
-def IncrementalOTA_Assertions(info):
-  AddModemAssertion(info, info.target_zip)
-  AddVendorAssertion(info, info.target_zip)
-  return
+#def IncrementalOTA_Assertions(info):
+#  AddModemAssertion(info, info.target_zip)
+#  AddVendorAssertion(info, info.target_zip)
+#  return
 
 def AddModemAssertion(info, input_zip):
   android_info = info.input_zip.read("OTA/android-info.txt")
