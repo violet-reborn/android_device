@@ -204,7 +204,4 @@ persist.vendor.qg.log_level=1
 #HTH-48746, lct.ydt enable the XLAT
 persist.vendor.net.doxlat=true
 
-ro.sf.lcd_density=440
-
-# Maintainer
-ro.mk.maintainer=guaiyihu
+ro.sf.lcd_density=420
